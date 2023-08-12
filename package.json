@@ -1,0 +1,14 @@
+{
+  "name": "heartbeat_monitor",
+  "version": "1.0.0",
+  "description": "node head endpoint to check uptime",
+  "author": "Joseph Pecoraro <jpecoraro342@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-async-errors": "^3.1.1"
+  }
+}

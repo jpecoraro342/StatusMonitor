@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  app:
+    image: node:20.1.0-alpine3.16
+    restart: unless-stopped
+    command: npm start
+    working_dir: /opt/app
+    volumes:
+      - .:/opt/app
+    ports:
+      - '8030:8030'
